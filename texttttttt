@@ -19,7 +19,7 @@ public class DebugExample {
         System.out.println("Maximum number: " + max);
         
         // Calculate the average of all numbers in the array
-        double average = sum / numbers.length;
+        double average = (double) sum / numbers.length;
         System.out.println("Average: " + average);
     }
 }
